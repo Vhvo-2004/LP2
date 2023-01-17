@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include<math.h>
 float verif(float a){
-    while(a<0 && a>1){
+    while(a<0 || a>1){
         scanf("%f",&a);
     }
     return a;
