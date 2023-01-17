@@ -8,7 +8,6 @@ float verif(float a){
     return a;
     }
 float arctan(float a){
-    verif(a);
     int i,l;
     float k,D;
     l=1;
@@ -25,7 +24,7 @@ float arctan(float a){
     
 }
 void print(float a){
-    printf("%f numero real\n %f arctang\n",a,arctan(a));
+    printf("%f numero real\n %f arctang\n",a,arctan(verif(a)));
     
 }
 float t;
