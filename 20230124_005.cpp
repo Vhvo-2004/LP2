@@ -23,7 +23,7 @@ void reverso(int n){
 	for(i=0;i<n;i++){
 		printf("%d ",C[i]);
 	}
-		printf("\nNumero pares lido:");
+		printf("\nFatoriais dos Numeros lidos:");
 	for(i=0;i<n;i++){
 		V[i]=fat(C[i]);
 		printf("%d ",V[i]);
