@@ -1,6 +1,7 @@
 #include<stdio.h>
 int verif(int a){
 	while(a<0||a>100){
+		printf("Escreva um inteiro menor igual a 100 e positivo");
 		scanf("%d",&a);
 	}
 	return a;
